@@ -1,3 +1,5 @@
+
+
 alert("Bienvenido a mi POCKETCOIN, esta aplicación web te ayudará a desarrollar un plan de ahorro dependiendo tu moneda local o divisa")
 
 alert(" El sistema de ahorro que se presenta es el llamado: 50-30-20   50% gastos fijos    20% ahorro     30% gastos prescindibles")
@@ -8,7 +10,16 @@ let tipo_moneda = parseInt (prompt("Ingrese su moneda Local o divisa"))
 
 let salario = parseInt ( prompt('Ingrese sus Ingresos Mensuales'))
 
-console.log("salario --->", salario)
+function Ahorrador (nombre,salario) {
+        this.nombre = nombre
+        this.salario = salario
+    }
+let ahorrador1 = new Ahorrador(prompt('Ingresa tu Nombre'), salario)
+console.log('salida de ahorrador1',ahorrador1)
+
+       ;
+
+    console.log("salario --->", salario)
 
 
         switch (tipo_moneda){
@@ -62,6 +73,12 @@ console.log("salario --->", salario)
             break;
         default:
             alert('Valor erroneo')
-        }
+            
+        };
+
+        
+        
+
+
     
     
