@@ -6,11 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAVASCRIPT</title>
 </head>
-<body>
+ <body class="bg-light">
 
-    <!--<script src="assets/pocketcoin.js"></script>-->
-    
-    <script src="assets/pocketcoin2.js"></script>
+		<h1>
+            POCKETCOIN 
+            Ahorrador Online
+        </h1>
 
+        <form action="" method="POST" id="formulario" onsubmit="return false;">
+
+            <div class="form-group">
+                <label for="valor">valor</label>
+                <input type="number" class="form-control" id="valor">
+                <div class="alert alert-danger my-2" role="alert" id="error_valor">
+                </div>
+            </div>
+				
+			</div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle"
+                        data-toggle="dropdown">
+                   Seleccione la moneda
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <button type="button" id="Dolar" class="btn btn-success">DOLAR</button>
+                  <!--<button type="button" id="Pesoargentino" class="btn btn-success">PESO ARGENTINO</button-->
+                </ul>
+              </div>
+              <input type="submit" value="Enviar" id="submit" class="btn btn-primary">
+			
+            </div>
+            </div>
+
+		<script src="./assets/pocketcoin3.js"></script> 
+		
+			
 </body>
 </html>
