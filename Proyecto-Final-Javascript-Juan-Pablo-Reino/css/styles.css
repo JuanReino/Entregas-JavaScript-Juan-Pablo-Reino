@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9F27AC;
+}
+
+.contenedor_logo {
+    display: block;
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.logo_pocketcoin {
+    width: 100%;
+}
+
+.parrafo-de_pokectcoin{
+    width: 480px;
+    margin: auto;
+    padding: 22px 10px;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #9F27AC;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 9px 10px 15px -5px rgba(66,3,66,0.41);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  appearance: none; 
+  margin: 0; 
+}
+
+.contenedor_form{
+    width: 480px;
+    padding: 50px;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0; 
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.dropdown-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 10px 0;
+}
+.seleccione_moneda_p{
+    margin: 25px 0;
+}
+
+.btn{
+    padding: 15px 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14.5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #9F27AC;
+    flex-wrap: nowrap;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    width: 106px;
+    margin: auto;
+    margin-top: 20px;
+}
