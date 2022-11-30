@@ -18,11 +18,14 @@
     <img src="./images/pocketcoin_logo_frase.png" alt="Pocketcoin logo" class="logo_pocketcoin">
   </div>
   <div class="parrafo-de_pokectcoin">
-    <p>Pocketcoin es un ahorrador virtual que te permite calcular la mejor manera de distribuir tú salario o una cantidad de dinero determinada. </p>
+    <p>Pocketcoin es un ahorrador virtual que te permite calcular la mejor manera de distribuir tú salario o una
+      cantidad de dinero determinada. </p>
   </div>
 
   <form action="" method="POST" id="formulario" onsubmit="return false;" class="contenedor_form">
-
+    <p>
+      1. Indica el valor de tu Salario
+    </p>
     <div class="form-group contenedor_espacio_valor">
       <label for="valor">Valor</label>
       <input type="number" class="form-control" id="valor">
@@ -33,7 +36,7 @@
     <div class="btn-group">
       <div class="seleccione_moneda_p">
         <p>
-          Seleccione la moneda
+          2. Seleccione la moneda
         </p>
       </div>
       <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> 
@@ -45,15 +48,23 @@
         <button type="button" id="Pesoargentino" class="btn btn-success">PESO ARGENTINO</button>
         <button type="button" id="Pesocolombiano" class="btn btn-success">PESO COLOMBIANO</button>
         <button type="button" id="Pesochileno" class="btn btn-success">PESO CHILENO</button>
-        <button type="button" id="Euro1" class="btn btn-success">EURO</button>
       </ul>
     </div>
     <div class="btn-primary">
       <input type="submit" value="Calcular" id="submit" class="btn ">
     </div>
+
+    <!-- DIVISAS CON RESPECTO AL DOLAR-->
+    </div>
+    <div>
+      <h2>Valores de las divisas con respecto al dolar</h2>
+      <p id="apidata"></p>
+    </div>
+
   </form>
 
   <script src="./Javascript/assets/pocketcoin3.js"></script>
+  <script src="./Javascript/assets/apipocket.js"></script>
 
   <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
